@@ -1,10 +1,6 @@
-# NamedEmoji
+# UTF8 Emojis
 
-Named Emojis for Mac OSX Lion and Later. Emoji's names are from Campfire and GitHub.
-
-For a list see [Emoji cheat sheet](http://www.emoji-cheat-sheet.com).
-
-**This is my version of the repo. I removed all binaries from the history to make it much smaller**
+UTF8 Emojis by their [Emoji cheat sheet](http://www.emoji-cheat-sheet.com) name. This is a fork of [named_emoji](https://github.com/jugyo/named_emoji) with a little history rewrite, where I removed all binaries to make the repository and gem much smaller. All the hard work was done by [@jugyo](https://github.com/jugyo) though.
 
 ## Installation
 
@@ -12,11 +8,11 @@ For a list see [Emoji cheat sheet](http://www.emoji-cheat-sheet.com).
 
 ## Usage
 
-    require 'named_emoji'
-    puts NamedEmoji.emojis[:smile]
+    require 'utf8_emoji'
+    puts Utf8Emoji.emojis[:smile]
     # => Ì†ΩÌ∏Ñ
 
-    include NamedEmoji
+    include Utf8Emoji
     emojis[:grin]
     # => Ì†ΩÌ∏Å
 

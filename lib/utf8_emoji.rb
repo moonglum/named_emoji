@@ -1,6 +1,6 @@
-require "named_emoji/version"
+require "utf8_emoji/version"
 
-module NamedEmoji
+module Utf8Emoji
   PEOPLE = {
     # :'bowtie'                   => nil,
     :'smile'                    => "\u{1F604}",
