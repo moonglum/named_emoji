@@ -2,7 +2,9 @@
 
 Named Emojis for Mac OSX Lion and Later. Emoji's names are from Campfire and GitHub.
 
-See also: [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
+For a list see [Emoji cheat sheet](http://www.emoji-cheat-sheet.com).
+
+**This is my version of the repo. I removed all binaries from the history to make it much smaller**
 
 ## Installation
 
@@ -26,10 +28,6 @@ As command line tool:
 List available emojis:
 
     $ emoji -l
-
-## Cheat Sheet
-
-[<img src="https://github.com/jugyo/named_emoji/raw/master/emojis.png" title="Cheat Sheet" />](https://github.com/jugyo/named_emoji/raw/master/emojis.pdf)
 
 ## Contributing
 
