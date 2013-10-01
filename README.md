@@ -4,26 +4,17 @@ UTF8 Emojis by their [Emoji cheat sheet](http://www.emoji-cheat-sheet.com) name.
 
 ## Installation
 
-    $ gem install named_emoji
+    $ gem install utf8_emoji
 
 ## Usage
 
-    require 'utf8_emoji'
-    puts Utf8Emoji.emojis[:smile]
-    # => Ì†ΩÌ∏Ñ
+First require the gem:
 
-    include Utf8Emoji
-    emojis[:grin]
-    # => Ì†ΩÌ∏Å
+```ruby
+require 'utf8_emoji'
+```
 
-As command line tool:
-
-    $ emoji scream
-    Ì†ΩÌ∏±
-
-List available emojis:
-
-    $ emoji -l
+You want to see a :smile:? Simple! Just use `puts Utf8Emoji.emojis[:smile]`. Or on your commandline type `emoji scream` for a :scream: or `emoji -l` for a list of all emojis.
 
 ## Contributing
 
