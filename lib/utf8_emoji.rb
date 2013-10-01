@@ -512,11 +512,6 @@ module Utf8Emoji
     # :'shipit'                   => nil,
   }
 
-  def self.[](name)
-    warn '`.[]` is deprecated. Please use `.emojis[]` instead'
-    emojis[name.to_sym]
-  end
-
   def emojis
     @all ||= PEOPLE.merge(NATURE).merge(OBJECTS).merge(PLACES).merge(SYMBOLS)
   end
